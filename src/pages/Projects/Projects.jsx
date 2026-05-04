@@ -48,7 +48,7 @@ const Projects = () => {
       <div className="flex justify-between items-center mb-8">
         <div>
           <h2 className="text-3xl font-bold text-white mb-2">Projects</h2>
-          <p className="text-slate-400">Manage and track all your projects.</p>
+          <p className="text-slate-400">Manage and track all your projects</p>
         </div>
         {user?.role === 'Admin' && (
           <button 
